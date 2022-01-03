@@ -1,1 +1,194 @@
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none; border: none;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+body {
+    display:inline;
+}
+#logo { 
+    width: 300px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    border: solid rgb(54, 160, 160) 10px ;
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+}
+.navbar {
+    border: solid black 2px;
+    position: sticky;
+    left: 62%;
+    font-size: 25px;
+    width: 702px;
+    color: black;
+    padding: 10px;
+    height: 57px;
+    margin-bottom: 10px;
+}
+header {
+background-color: black;
+padding: 15px;
+position: fixed;
+width:100%;
+}
+
+header nav a {
+    color: rgb(1,1,1);
+    border: solid 1px black;
+    padding: 5px;  
+    background-color: white;
+}
+
+.icons {
+    display: inline;
+    position: relative;
+    left: 88%;
+}
+
+#displayPage {
+    border: solid black 2px;
+    background-image: url(jewel.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    top: 245px;
+    z-index: -1;
+}
+
+#slogan {
+    margin-top: 220px;
+    font-weight:lighter;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+#brand {
+    
+    font-weight:lighter;
+    font-size: 45px;
+    font-weight: bold;
+}
+#footer {
+    position: relative;
+    top: 245px;
+    background-color: rgb(68, 64, 64);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(182, 111, 17);
+    background-color:rgb(39, 37, 37);
+    width: 100%;
+}
+.cont {
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+#tos {
+    text-decoration:underline;
+    color: rgb(182, 111, 17);
+}
+header nav a:hover {
+background-color: rgb(182, 111, 17);
+
+}
+#pdts {
+    position: absolute;
+    top: 40%;
+    border: solid 5px rgb(182, 111, 17);
+    margin: 5px;
+    text-align:center;
+    width: 99%;
+    z-index: -1;
+}
+.br {
+    width: 20%;
+    height: 350px;
+    border: black dotted 3px;
+    float: left;
+    margin-right: 40px;
+    margin-top:20px;
+}
+.ring {
+    width: 20%;
+    height: 350px;
+    border: black dotted 3px;
+    float: left;
+    margin-right: 40px;
+    margin-top:20px;
+}
+.neck {
+    width: 20%;
+    height: 350px;
+    border: black dotted 3px;
+    float: left;
+    margin-right: 40px;
+    margin-top:20px;
+}
+.Ea {
+    width: 20%;
+    height: 350px;
+    border: black dotted 3px;
+    float: left;
+    margin-right: 40px;
+    margin-top:20px;
+}
+#footer2 {
+    position: relative;
+    top: 1920px;
+    background-color: rgb(68, 64, 64);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(182, 111, 17);
+    background-color:rgb(39, 37, 37);
+    width: 100%;
+}
+
+.cart-container {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 5px rgb(182, 111, 17);
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    padding: 10px;
+    z-index: -1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer3 {
+    position: absolute;
+    top: 169%;
+    background-color: rgb(68, 64, 64);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(182, 111, 17);
+    background-color:rgb(39, 37, 37);
+    width: 100%;
+}
+.atc {
+    border: solid 1px rgb(39, 184, 176);
+    padding: 2px;
+    background-color: rgb(192, 190, 190);
+}
+.info {
+    font-size: 20px;
+}
+#ckout {
+    font-size: 35px;
+    background-color: rgb(182, 111, 17);
+    width: 20%;
+    height: 10%;
+    border-radius: 10px;
+    
+
+}
+
 
