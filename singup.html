@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign Up</title>
+        <style>
+            body {
+                background-color: rgb(168, 226, 228);
+            }
+            h1 {
+                border: rgb(32, 68, 189);
+                border-style:dashed;
+                color: rgb(130, 37, 153);
+                padding: 15px;
+                font-size: 40px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                width: 200px;
+            }
+            h4 {
+                border: rgb(32, 68, 189);
+                border-style: solid;
+                color:rgb(32, 68, 189);
+                padding: 15px;
+                font-size: 25px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                width: 400px;
+            }
+            #signup {
+                border: rgb(102, 46, 155);
+                border-style: dashed;
+                width: 500px;
+                position: absolute;
+                left: 30%;
+            }
+            #logn {
+                background-color: rgb(157, 162, 163);
+                border-style: groove;
+                border-color: rgb(5, 5, 5);
+                position: absolute;
+                top: 120%;
+                left: 32.5%;
+                font-size: 25px;
+               padding: 20px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            hr {
+                position: absolute;
+                top:150%;
+                
+            }
+            .details {
+                font-size: 20px;
+                font-style:italic;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color:rgb(20, 18, 100);
+                font-weight: bold;
+            }
+            #button2 {
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="signup" align="center"> 
+            <h1>Sign Up</h1>
+            <h4>Free registration in a few minutes!</h4>
+            <form>
+                <label class="details">First Name</label>
+                <input type="text" placeholder=""><br><br><br>
+                <label class="details">Last Name</label>
+                <input type="text" placeholder=""><br><br><br>
+                <label class="details">Email</label>
+                <input type="email" placeholder=""><br><br><br>
+                <label class="details">Password</label>
+                <input type="password" placeholder=""><br><br><br>
+                <label class="details">Confirm Password</label>
+                <input type="password" placeholder=""><br><br><br>
+                <input id="button2" type="button" value="Submit">
+            </form>
+            <p class="details">By clicking on the Submit button, you agree to the <br>
+            <a href="#">Terms and Conditions</a>and <a href="#">Privacy Policy</a></p>
 
+        </div>
+        <p align="center" id="logn">Already have an account? <a href="index.html">Login Here</a></p>
+        <hr>
+    </body>
+</html>
