@@ -190,5 +190,47 @@ background-color: rgb(182, 111, 17);
     
 
 }
-
+#form {
+    position: absolute;
+    top: 40%;
+    width: 40%;
+    height: 60%;
+    border: solid 3px rgb(54, 160, 160);
+    box-shadow: 3px 3px 8px 5px rgb(54, 160, 160);
+    left: 30%;
+    z-index: -1;
+}
+#footer4 {
+    position: absolute;
+    top: 105%;
+    background-color: rgb(68, 64, 64);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(182, 111, 17);
+    background-color:rgb(39, 37, 37);
+    width: 100%;
+}
+#signup {
+width: 40%;
+height: 85%;
+position: absolute;
+left: 30%;
+top: 40%;
+border: solid rgb(54, 160, 160) 3px;
+box-shadow: 3px 3px 8px 5px rgb(54, 160, 160);
+z-index:-1;
+font-size: 15px;
+}
+#footer5 {
+    position: absolute;
+    top: 130%;
+    background-color: rgb(68, 64, 64);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(182, 111, 17);
+    background-color:rgb(39, 37, 37);
+    width: 100%;
+}
 
