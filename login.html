@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login</title>
-        <style>
-            body {
-                background-color: rgb(253, 204, 234);
-                font-family:Arial, Helvetica, sans-serif;
-                font-size: 25px;
-            }
-            p {
-                background-color: rgb(255, 255, 255);
-                padding: 15px;
-                font-size: 30px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: rgb(50,5,56);
-                position: fixed;
-                top: 80%;
-                left: 38%;
-            }
-            #button {
-                padding: 5px;
-                font-size: 30px;
-                color:rgb(161, 17, 89);
-            }
-            #form {
-                border-width: 5px;
-                padding:20px;
-                border-style: dashed;
-                border-color:rgb(50,5,56);
-                width: 200px;
-                position:fixed;
-                left: 40%;
-            }
-
-        </style>
-    </head>
+       <meta charset="UTF-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blacklake</title>
+        <link rel="stylesheet" href="style.css">
+       </head>
     <body>
+        <header>
+            
+          <a href="index.html"> <img src="logo2.png" id="logo" href="blacklakeLP.html" ></a> 
+            <nav class="navbar">
+                &nbsp;&nbsp;<a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="products.html">Products</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="cart.html">Cart</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="login.html">Login</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="signup.html">Signup</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </nav>
+
+            <div class="icons">
+                <a href="#" class="iheart"><img src="heart.png" width="40px" height="40px"></a> &nbsp;&nbsp;
+                <a href="#" class="iabout"><img src="infof.png" width="40px" height="40px"></a> &nbsp;&nbsp;
+                <a href="#" class="iuser"><img src="userf.png" width="40px" height="40px"></a> &nbsp;&nbsp;
+            </div>
+        </header>
         <div id="form" align="center">
-            <h1>Login</h1>
+            <h1>Login</h1> <br><br>
             <form>
-                <label>Email</label>
-                <input type="email" placeholder=""><br><br><br>
-                <label>Password</label>
-                <input type="password" placeholder=""><br><br><br>
-                <input id="button" type="button" value="Submit">
-            </form>
+                <label style="font-size: 25px;">Email</label>
+                <input type="email" placeholder="" style="border: solid 2px rgb(187, 148, 19); width: 100px; height:30px;"><br><br><br>
+                <label style="font-size: 25px">Password</label>
+                <input type="password" placeholder="" style="border: solid 2px rgb(187, 148, 19); width: 100px; height:30px;"><br><br><br>
+                <input id="submit" type="button" value="Submit" style="width: 90px; height: 50px; font-size: 25px; border: rgb(187, 148, 19) solid 2px;">
+            </form> <br><br>
+            <p align="center">New here? <a href="signup.html">Sign up.</a></p>
         </div>
-        <p align="center">New here? <a href="signup.html">Sign up.</a></p>
+
+        <div id="footer4">
+            <p class="cont">Phone: XXXXX-34760 <br>
+                Email: customerservice@blacklake.admin.com <br>
+                Address (Head Office): 23 Lajpath Road, Kandivali East, Mumbai, India
+            </p>
+            <p class="cont">
+                © Blacklake Pvt. Ltd. <br>
+               <a id="tos" href="#">Terms of Service</a>
+
+            </p>
+            
+        </div>
     </body>
-    </html>
+</html>
